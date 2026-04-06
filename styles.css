@@ -53,17 +53,27 @@ h1, h2 {
 /* PROYECTOS */
 .projects {
   background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .card {
   background: #ffffff;
   border: 2px solid #D8C3A5;
-  margin: 15px;
   padding: 20px;
-  display: inline-block;
-  width: 220px;
+  display: block;
+   width: 90%;
+  max-width: 250px;
   border-radius: 15px;
   transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 95%;
+  }
 }
 
 .card:hover {
@@ -248,4 +258,10 @@ i {
 
 .dark-btn:hover i {
   color: #8E6E53;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
