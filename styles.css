@@ -275,3 +275,13 @@ i {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/*AJUSTE PARA MOVIL*/
+@media (max-width: 600px) {
+  .dark-btn {
+    right: 10px;
+    top: 15px;
+    transform: none;
+    font-size: 16px;
+  }
+}

@@ -1,20 +1,22 @@
 # 🌐 Mi Portafolio
 
-Hola 👋 Soy estudiante de Full Stack Python y este es mi portafolio web.
+Hola 👋 Soy estudiante de Full Stack Python y este es mi portafolio web, donde presento mis proyectos y habilidades.
 
 ## 🚀 Tecnologías utilizadas
 
 * HTML
 * CSS
-* JavaScript (básico)
+* JavaScript 
 
 ## 📌 Sobre el proyecto
 
-Este portafolio fue creado como parte de mi aprendizaje en desarrollo web. Aquí presento algunos de mis proyectos y habilidades.
+Este portafolio fue creado como parte de mi aprendizaje en desarrollo web. Aquí presento algunos de mis proyectos y habilidades desarrolladas en proyectos prácticos donde aplico conceptos de desarrollo frontend y backend.
+
 
 ## 🖥️ Demo
 
-(Puedes agregar aquí el link cuando lo subas a GitHub Pages)
+https://lissette-dev.github.io/mi-portafolio/
+
 
 ## 📫 Contacto
 
