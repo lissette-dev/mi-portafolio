@@ -392,3 +392,44 @@ i {
   background-color: #F6E7B4;
   color: #A084CA;
 }
+
+
+
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 600px) {
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: #FAF9F6;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    left: 0;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dark-btn {
+    right: 15px;
+    top: 15px;
+    position: absolute;
+  }
+}
