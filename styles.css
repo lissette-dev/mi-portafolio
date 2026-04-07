@@ -18,9 +18,31 @@ section {
 }
 
 /* TITULOS */
+
 h1, h2 {
   font-family: 'Caveat', cursive;
   color: #A084CA;
+}
+
+h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* TITULOS MÓVIL*/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
 }
 
 /* HERO */
@@ -284,4 +306,89 @@ i {
     transform: none;
     font-size: 16px;
   }
+}
+
+/*CV*/
+
+.btn-cv {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #A084CA;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-cv:hover {
+  background: #8E6E53;
+  transform: scale(1.05);
+}
+
+/*CONTACTO ICONOS*/
+.contact-icons a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 28px;
+  color: #A084CA;
+  transition: 0.3s;
+}
+
+
+.contact-icons a:hover {
+  color: #8E6E53;
+  transform: scale(1.2);
+}
+
+/*CONTACTO ICONOS nuevos*/
+.contact-icons {
+  margin-top: 20px;
+}
+
+.icon-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+
+  margin: 10px;
+
+  border-radius: 50%;
+  background-color: #A084CA;
+
+  color: white;
+  font-size: 22px;
+
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/*TAMAÑO TEXTO: SOBRE MI*/
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*TAMAÑO TEXTO: DESARROLLADORA..*/
+.subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 5px;
+  color: #5c5470;
+}
+
+
+.icon-btn:hover {
+  background-color: #8E6E53;
+  transform: scale(1.1);
+}
+
+.icon-btn {
+  background-color: #F6E7B4;
+  color: #A084CA;
 }
