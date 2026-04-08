@@ -62,9 +62,9 @@
       que combinan lógica, diseño y funcionalidad.
     </p>
       <!-- Ver CV -->
-    <a href="cv.pdf" class="btn-cv">Ver CV</a>
-  </section>
-
+    <a href="assets/cv.pdf" target="_blank" class="btn-cv">
+      📄 Ver CV
+    </a>
 
     <!-- HABILIDADES -->
   <section class="skills reveal">
@@ -88,13 +88,17 @@
       <div class="card reveal">
         <h3>Librería Infantil</h3>
         <p>Aplicación con ORM para gestión de libros infantiles.</p>
-        <a href="#" target="_blank">Ver proyecto</a>
+        <button class="btn-demo">🎥 Ver Demo</button>
+        <a href="https://github.com/lissette-dev/libreria_infantil.git" target="_blank">Ver proyecto</a>
       </div>
 
       <div class="card reveal">
         <h3>E-commerce</h3>
         <p>Proyecto con CRUD para gestión de productos.</p>
-        <a href="#" target="_blank">Ver proyecto</a>
+        <button class="btn-demo" onclick="openModal()">🎥 Ver Demo</button>
+        <div class="video-wrapper">
+        </div>
+        <a href="https://github.com/lissette-dev/petite_inquieta_shop.git" target="_blank">Ver proyecto</a>
       </div>
 
     </div>
@@ -111,7 +115,7 @@
     <i class="fa-brands fa-github"></i>
   </a>
 
-  <a href="https://linkedin.com/in/TU-LINK" target="_blank" class="icon-btn">
+  <a href="https://www.linkedin.com/in/lissetteconstanz/" target="_blank" class="icon-btn">
     <i class="fa-brands fa-linkedin"></i>
   </a>
 
@@ -119,5 +123,19 @@
 
   </section>
 <script src="script.js"></script>
+
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <iframe 
+      src="https://www.loom.com/embed/04925442e855469c922a09cbbe7664a3" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+
+  </div>
+</div>
+
 </body>
 </html>

@@ -51,3 +51,14 @@ const menu = document.querySelector(".menu");
 hamburger.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
+
+
+  // DEMO ecommerce
+
+function openModal() {
+  document.getElementById("videoModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("videoModal").style.display = "none";
+}
